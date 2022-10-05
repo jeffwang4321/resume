@@ -1,0 +1,42 @@
+/* A4 dimensions 	2550 X 3300 => 850 x 1100 => 815 x 490 */
+
+.NavHeader {
+  display: flex;
+}
+.NavHeader section {
+  background-color: #dbe5f1;
+  padding: 0.5em 0;
+  width: 69.5%;
+  float: left;
+}
+#sectionRight {
+  width: 30.5%;
+}
+
+.NavHeader h1 {
+  font-size: 3.2em;
+  font-family: 'Cambria', serif;
+  padding: 0.1em 0.4em 0.2em; 
+}
+.NavHeader p {
+  font-size: 0.9em;
+  padding: 0 0 0.5em 1.5em;
+}
+
+.NavHeader li {
+  font-size: 0.9em;
+  padding: 0.2em;
+}
+.icon {
+  color: #4070f4;
+  vertical-align: text-bottom;
+  font-size: 1.1em;
+  margin-right: 0.5em;
+}
+.NavHeader a {
+  color: black;
+}
+.NavHeader a span {
+  color: blue;
+  text-decoration: underline;
+}
